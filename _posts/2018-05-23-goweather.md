@@ -45,3 +45,19 @@ type OpenWeatherMapWeatherResponse struct {
 So far I've only spend a few hours on this project and it's been my first time ever using Go. I really like the language so far and I can see myself using it for more projects in the future. 
 
 However, I've managed to get the application to take your API key and Location as arguemnts and it will output the temperature at the specified location in Celsius. Not very feature rich! However all of the data is being received from the API so I think the next task is writing a more advanced system for parsing all the arguments and outputting the information. I quite like the idea of being able to use  an arbitrary number of arguments and the system will just output all the data. This would mean people can `cut` or `grep` the outputted data  as they please!
+
+### Progression - May 28th
+While I didn't have much time today, I managed to spend a few minutes looking into the token parsing system mentioned above. 
+
+The Go standard library already has a nice way of achieving this using the [flag package](https://golang.org/pkg/flag/).
+
+Using the flag package, flags can easily be specified in the following style:
+```go
+apiKey := flag.String("key", "REQUIRED", "OpenWeatherMap Current Weather API key")
+```
+This needs to be followed by a call to `flag.Parse()`. This example will create the `-key` flag, it's value can be assigned quite easily by using `-key=VALUE`. The second paramter is the default value and the final parameter is the help text. Go's flag package has the rather neat function of automatically generating a `-h` or `--help` text for your application, the final parameter is the help text this is displayed when this command used. I chose to set the default value as required as it will appear more readable when a user uses the `--help` facility. This is what the output of `--help` will look like:
+```
+-key string
+        OpenWeatherMap Current Weather API key (default "REQUIRED")
+```
+
