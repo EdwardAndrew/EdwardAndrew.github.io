@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GoWeather
-subtitle:
+subtitle: First Go project
 gh-repo: edwardandrew/goweather
 gh-badge: [star, fork, watch, follow]
 tags: [project]
