@@ -9,9 +9,10 @@ First Class BSc (Hons) in Computer Games Programming.
 Associate Software Developer at Sky UK
 
 ### Things I Love
+- C++
+- Java
 - Linux
 - VIM
 - Mechanical keyboards
-- Flying virtual aircraft
-- Flying real aircraft
-
+- Flying 
+- Photography
