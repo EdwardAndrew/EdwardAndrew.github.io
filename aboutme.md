@@ -4,15 +4,14 @@ title: About me
 subtitle: Edward Andrew
 ---
 ### Education
-First Class BSc (Hons) in Computer Games Programming.
+First Class BSc (Hons) in Computer Games Programming from The University of Huddersfield.
 ### Employment
-Associate Software Developer at Sky UK
+I'm currentyly a Software Developer at Sky UK
 
 ### Things I Love
+- Flying 
 - C++
-- Java
+- NodeJS
 - Linux
 - VIM
-- Mechanical keyboards
-- Flying 
 - Photography
