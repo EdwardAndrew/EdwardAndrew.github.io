@@ -6,7 +6,7 @@ subtitle: Edward Andrew
 ### Education
 First Class BSc (Hons) in Computer Games Programming from The University of Huddersfield.
 ### Employment
-I'm currently a Software Developer at Sky UK
+Software Engineer at DAZN
 
 ### Things I Love
 - Flying 
